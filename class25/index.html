@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <title>Grouping Buttons and Floating Menus</title>
+</head>
+
+<body>
+    <div class="container py-5">
+    <button class="btn btn-outline-success btn-lg">Button 1</button>
+    <button class="btn btn-primary" data-bs-toggle="button">Button 2</button>
+    </div>
+
+    <div class="container py-5">
+        <div class="btn-group mb-3">
+            <button class="btn btn-primary">Button 1</button>
+            <button class="btn btn-success">Button 2</button>
+            <button class="btn btn-outline-warning">Button 3</button>
+        </div>
+
+        <div class="btn-group">
+            <input type="checkbox" name="group" id="btn1" class="btn-check">
+            <label for="btn1" class="btn btn-outline-primary">Check button 1</label>
+
+            <input type="checkbox" name="group" id="btn2" class="btn-check">
+            <label for="btn2" class="btn btn-outline-primary">Check button 2</label>
+
+            <input type="checkbox" name="group" id="btn3" class="btn-check">
+            <label for="btn3" class="btn btn-outline-primary">Check button 3</label>
+        </div>
+    </div>
+</body>
+
+</html>
