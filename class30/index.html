@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="class30.js" defer></script>
+    <title>Floating Messages</title>
+</head>
+
+<body>
+    <div class="container my-5">
+        <div class="toast">
+            <div class="toast-header">
+                <i class="bg-info-circle me-1"></i>
+                <strong class="me-auto">Information</strong>
+                <button class="btn-close ms-auto" data-bs-dismiss="toast"></button>
+            </div>
+            <div class="toast-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, maiores necessitatibus neque esse aliquid facilis nostrum voluptatum excepturi distinctio iusto voluptates pariatur culpa suscipit aliquam recusandae? Saepe cumque quo aliquam.
+            </div>
+        </div>
+        <hr>
+        <div class="toast">
+            <div class="toast-body">
+                You received new messages!
+                <div class="mt-2 pt-2 border-top">
+                    <button class="btn btn-primary btn-sm">Visualize</button>
+                    <button class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
