@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <title>Sliding Panels</title>
+</head>
+
+<body>
+    <nav class="navbar bg-dark navbar-dark">
+        <div class="container">
+            <a href="" class="navbar-brand">OffCanvas</a>
+            <div>
+                <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#painel">Painel</button>
+            </div>
+        </div>
+    </nav>
+
+
+        <div class="offcanvas offcanvas-start show" id="painel" tabindex="-1">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title">Painel</h5>
+                <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body"></div>
+        </div>
+    
+</body>
+
+</html>
